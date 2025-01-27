@@ -128,7 +128,7 @@ async def send_rank_list(Message):
 
         # 生成Markdown格式的排行榜
         if rank_list:
-            header = r"\\\* " + "|   排名   &nbsp;&nbsp;&nbsp;|   用户名   &nbsp;&nbsp;&nbsp;|   运势   &nbsp;&nbsp;&nbsp;|   签到时间   &nbsp;&nbsp;&nbsp;|\n|:-|:-|:-:|-:|\n"
+            header = r"\\\* " + "|  排名   | &nbsp;  用户名   &nbsp;|&nbsp;运势&nbsp;|   签到时间   |\n|:-|:-|:-:|-:|\n"
             rank_data = "\n".join(rank_list)
             result = header + rank_data
         else:

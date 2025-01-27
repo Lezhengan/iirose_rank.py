@@ -1,6 +1,7 @@
 # 必读
-## 本插件适用于 1.7.0以前的版本 若是1.7.0版本的框架请主动在所有于IIROSE有关的import前面加上iirosebot.
-### 例如：iirosebot.API.api_iirose import APIIirose
+本插件适用于 1.7.0以前的版本
+若是1.7.0版本的框架请主动在所有于IIROSE有关的import前面加上iirosebot.
+#### 例如：iirosebot.API.api_iirose import APIIirose
 核心框架：XCWQW233编写的iirose框架
 https://github.com/XCWQW1/iirosebot
 # 签到系统插件

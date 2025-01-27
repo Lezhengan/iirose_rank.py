@@ -90,7 +90,7 @@ async def sign_in(Message):
 
     result = (r"\\\* " + f" ## #{total_sign_ins_today} **{username}**\n\n---\n\n"
                          f"用户名： **{username}**\n"
-                         f"排名： **#{total_sign_ins_today} **\n"  # 使用实际计算出的排名
+                         f"排名： **#{total_sign_ins_today}**\n"  # 使用实际计算出的排名
                          f"你是今天第 **{total_sign_ins_today}** 个签到的！\n"
                          f"时间： **{current_time}**\n\n"
                          f"**今日运势！ {fortune}**\n\n"

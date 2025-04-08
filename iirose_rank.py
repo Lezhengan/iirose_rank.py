@@ -259,7 +259,7 @@ async def sign_in(Message):
                          f"时间： **{current_time}**\n\n"
                          f"**今日运势！ {fortune}**\n\n"
                          f"![美图]({image_url})\n\n"  # 嵌入美图的 Markdown 语法
-                         f"---\n\n*您可以发送 /rank 查看签到详情*\n 也可以发送 /中签帮助 来获取中签解析")
+                         f"---\n\n*您可以发送 /rank 查看签到详情*\n 也可以发送 /签到帮助 来获取中签解析")
 
     await API.send_msg(Message, result)
 
